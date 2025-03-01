@@ -18,28 +18,12 @@ class MainActivity : AppCompatActivity() {
         Log.d("cPiRMP", "onCreate")
         val Button1 = findViewById<Button>(R.id.button1)
         Button1.setOnClickListener{
-            val fio = findViewById<EditText>(R.id.fio)
-            val groupnum = findViewById<EditText>(R.id.groupnum)
-            val age = findViewById<EditText>(R.id.age)
-            val grade = findViewById<EditText>(R.id.grade)
-
-            val pfio = fio.text.toString()
-            val pgroupnum = groupnum.text.toString()
-            val page = age.text.toString().toIntOrNull() ?: 0
-            val pgrade = grade.text.toString().toIntOrNull() ?: 0
-
-            val intent = Intent(this, MainActivity2::class.java)
-            intent.putExtra("fio",pfio)
-            intent.putExtra("groupnum",pgroupnum)
-            intent.putExtra("age",page)
-            intent.putExtra("grade",pgrade)
-
-            startActivity(intent)
+            navigateToNextActivity()
         }
 
     }
 
-    fun onNextActivity(view: View){
+    fun navigateToNextActivity(){
         val fio = findViewById<EditText>(R.id.fio)
         val groupnum = findViewById<EditText>(R.id.groupnum)
         val age = findViewById<EditText>(R.id.age)
@@ -55,6 +39,10 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("age",page)
         intent.putExtra("grade",pgrade)
         startActivity(intent)
+    }
+
+    fun onNextActivity(view: View){
+        navigateToNextActivity()
     }
 
     override fun onStart() {
