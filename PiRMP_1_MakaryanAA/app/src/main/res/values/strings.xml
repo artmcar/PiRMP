@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PiRMP_1_MakaryanAA</string>
+    <string name="select_item">Select Item</string>
+    <string name="clothes">Необходимо выбрать предмет одежды</string>
+    <string-array name="c_types">
+        <item>Головной убор</item>
+        <item>Обувь</item>
+        <item>Верхняя одежда</item>
+    </string-array>
+</resources>
