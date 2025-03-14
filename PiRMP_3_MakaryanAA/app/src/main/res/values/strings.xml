@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">PiRMP_3_MakaryanAA</string>
+    <string name="group_hint">Group</string>
+    <string name="name_hint">Name</string>
+    <string name="age_hint">Age</string>
+    <string name="push_button">Push</string>
+    <string name="received_text_hint">Received text</string>
+    <string name="back_button">Go back</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="group_hint">Группа</string>
+    <string name="name_hint">Имя</string>
+    <string name="age_hint">Возраст</string>
+    <string name="push_button">Передать</string>
+    <string name="received_text_hint">Переданный текст</string>
+    <string name="back_button">Вернуться назад</string>
+</resources>

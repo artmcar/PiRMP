@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="group_hint">Խումբ</string>
+    <string name="name_hint">Անուն</string>
+    <string name="age_hint">Տարիքը</string>
+    <string name="push_button">Փոխանցել</string>
+    <string name="received_text_hint">Ստացված տեքստ</string>
+    <string name="back_button">Վերադարձ</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PiRMP_3_MakaryanAA" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="Theme.PiRMP_3_MakaryanAA" parent="Base.Theme.PiRMP_3_MakaryanAA" />
+</resources>
