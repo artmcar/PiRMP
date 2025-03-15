@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PiRMP_4_1_MakaryanAA</string>
+    <string name="f_hint">First name</string>
+    <string name="i_hint">Last name</string>
+    <string name="newlesson_hint">New lesson</string>
+    <string name="next_button">Next</string>
+    <string name="enter_button">Enter information</string>
+    <string name="day_hint">Day</string>
+    <string name="time_hint">Time</string>
+    <string name="comment_hint">Comment</string>
+    <string name="ok_button">Ok</string>
+</resources>
