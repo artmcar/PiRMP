@@ -41,12 +41,5 @@ class MainActivity : AppCompatActivity() {
            intent.putExtra("author", author)
            startActivity(intent)
        }
-
-
-
     }
-
-
-
-
 }

@@ -20,6 +20,7 @@ class ReadPoemActivity : AppCompatActivity() {
             "За цветами в зимний сад" -> R.string.zcvzs
             "Мы очищали старый сад" -> R.string.moss
             "Я пришел к тебе с приветом" -> R.string.ypktsp
+            "Тополь" -> R.string.topol
             "Чудная картина" -> R.string.ck
             "А мы с тобой, брат, из пехоты" -> R.string.amsbip
             "Осудите сначала себя самого" -> R.string.osss
@@ -38,6 +39,8 @@ class ReadPoemActivity : AppCompatActivity() {
             "Серые глаза - рассвет" -> R.string.sgr
             "Двое" -> R.string.dvoe
             "Общий итог" -> R.string.oi
+            "Старый священник" -> R.string.ss
+            "Хохот" -> R.string.xoxot
             "Жалобы" -> R.string.zhalobi
             "Разрушение" -> R.string.razrushenie
             "Ինչու հիշեցի" -> R.string.ih
