@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_poet1"
+        android:icon="@drawable/ic_action_poet"
+        android:title="Константин Бальмонт" />
+    <item
+        android:id="@+id/nav_poet2"
+        android:icon="@drawable/ic_action_poet"
+        android:title="Валерий Брюсов" />
+    <item
+        android:id="@+id/nav_poet3"
+        android:icon="@drawable/ic_action_poet"
+        android:title="Борис Пастернак" />
+    <item
+        android:id="@+id/nav_poet4"
+        android:icon="@drawable/ic_action_poet"
+        android:title="Марина Цветаева" />
+    <item
+        android:id="@+id/nav_next_activity"
+        android:icon="@drawable/ic_action_next"
+        android:title="Переход к следющей активности" />
+</menu>

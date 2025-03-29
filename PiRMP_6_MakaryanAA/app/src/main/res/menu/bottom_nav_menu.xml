@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_bottom_first"
+        android:icon="@drawable/ic_action_draw"
+        android:title="Draw"/>
+    <item
+        android:id="@+id/nav_bottom_second"
+        android:icon="@drawable/ic_action_paint"
+        android:title="Paint"/>
+    <item
+        android:id="@+id/nav_bottom_third"
+        android:icon="@drawable/ic_action_color"
+        android:title="Color"/>
+</menu>
