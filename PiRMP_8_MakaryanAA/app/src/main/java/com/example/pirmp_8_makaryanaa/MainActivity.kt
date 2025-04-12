@@ -28,11 +28,9 @@ class MainActivity : AppCompatActivity() {
             val secondFragment = SecondFragment()
             val thirdFragment = ThirdFragment()
 
-            supportFragmentManager.beginTransaction().apply {
-                replace(R.id.frame_layout_1,firstFragment).addToBackStack(null).commit()
-                replace(R.id.frame_layout_2,secondFragment).addToBackStack(null).commit()
-                replace(R.id.frame_layout_3,thirdFragment).addToBackStack(null).commit()
-            }
+            supportFragmentManager.beginTransaction().replace(R.id.frame_layout_1,firstFragment).addToBackStack(null).commit()
+            supportFragmentManager.beginTransaction().replace(R.id.frame_layout_2,secondFragment).addToBackStack(null).commit()
+            supportFragmentManager.beginTransaction().replace(R.id.frame_layout_3,thirdFragment).addToBackStack(null).commit()
 
         }
         btn2.setOnClickListener{
